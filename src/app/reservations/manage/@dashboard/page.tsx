@@ -1,4 +1,4 @@
-import { authOptions } from "@/app/api/auth/route"
+import { authOptions } from "@/app/api/auth/[...nextauth]/auth"
 import getUserProfile from "@/libs/getUserProfile"
 import { getServerSession } from "next-auth"
 import Car from "@/db/models/Car"

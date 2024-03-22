@@ -3,7 +3,7 @@ import styles from './topmenu.module.css'
 import Image from 'next/image'
 import TopMenuItem from './TopmenuItem'
 import { getServerSession } from "next-auth"
-import { authOptions } from '@/app/api/auth/route'
+import { authOptions } from '@/app/api/auth/[...nextauth]/auth'
 import { Link } from '@mui/material'
 
 export default async function TopMenu() {
