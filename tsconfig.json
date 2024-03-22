@@ -1,7 +1,7 @@
 {
   "ts-node": {
     "compilerOptions": {
-      "module": "ES2015",
+      "module": "es2015",
       "moduleResolution": "Node"
     }
   },
@@ -28,8 +28,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "jest.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "jest.config.js", "cypress/e2e/Cars.cy.ts"],
   "exclude": ["node_modules"]
 }
